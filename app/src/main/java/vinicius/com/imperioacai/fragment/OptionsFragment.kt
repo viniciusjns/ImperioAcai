@@ -10,16 +10,16 @@ import vinicius.com.imperioacai.R
 /**
  * Created by vinicius on 14/03/18.
  */
-class FragmentTwo : Fragment() {
+class OptionsFragment : Fragment() {
 
     companion object {
         fun newInstance() : Fragment {
-            return FragmentTwo()
+            return OptionsFragment()
         }
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var view = inflater!!.inflate(R.layout.fragment_two, container, false)
+        var view = inflater!!.inflate(R.layout.fragment_options, container, false)
         return view
     }
 

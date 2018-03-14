@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center"
-            android:text="Icone"
+            android:text="Logo marca"
             android:textColor="@color/colorWhite"/>
 
     </LinearLayout>
@@ -59,7 +59,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_centerVertical="true"
-            android:text="R$ 0,00"
+            android:text="R$ 10,00"
             android:textSize="24sp"
             android:textColor="@color/colorWhite"/>
 

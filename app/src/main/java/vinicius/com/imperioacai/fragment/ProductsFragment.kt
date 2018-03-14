@@ -1,6 +1,5 @@
 package vinicius.com.imperioacai.fragment
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -11,16 +10,16 @@ import vinicius.com.imperioacai.R
 /**
  * Created by vinicius on 14/03/18.
  */
-class FragmentOne : Fragment() {
+class ProductsFragment : Fragment() {
 
     companion object {
         fun newInstance() : Fragment {
-            return FragmentOne()
+            return ProductsFragment()
         }
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        var view = inflater!!.inflate(R.layout.fragment_one, container, false)
+        var view = inflater!!.inflate(R.layout.fragment_products, container, false)
         return view
     }
 
