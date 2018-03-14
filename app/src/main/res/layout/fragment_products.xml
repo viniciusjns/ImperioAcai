@@ -54,20 +54,18 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="300 ML - R$ 9,00"
-                android:textColor="@color/colorPrimaryText"/>
+                android:text="300 ML - R$ 9,00"/>
 
             <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="500 ML - R$ 12,00"
-                android:textColor="@color/colorSecondaryText"/>
+                android:text="500 ML - R$ 12,00"/>
 
         </LinearLayout>
 
